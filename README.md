@@ -1,12 +1,13 @@
 # LeetCode
 > 我的LeetCode刷题笔记
 ## 刷题记录
-| 题号 | 题目名称 | 难度 | 是否解决 |
-| :--: || :--: | :--: | :--: |
-|#1|Two Sum|Easy|yes|
+
+| Squence | Problem       | Level  | 
+|:-------:|:--------------|:------:|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|Easy|yes|
 
 ## 题目描述
-### 1 [Two Sum](https://leetcode.com/problems/two-sum/description/)
+### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
 Given an array of **integers**, return indices of the two numbers such that they add up to a specific target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
