@@ -2,10 +2,10 @@
 > 我的LeetCode刷题笔记
 ## 刷题记录
 
-| Squence | Problem       | Level  | 
-|:-------:|:--------------|:------:|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|Easy|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|Medium|
+| Squence | Problem       | Level  | Data  |
+|:-------:|:--------------|:------:|:----:|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|Easy|2018/01/13|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|Medium|2018/01/13|
 
 ## 题目描述
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
