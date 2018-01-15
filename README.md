@@ -18,8 +18,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 > **Example:**
 Given nums = [2, 7, 11, 15], target = 9,
-
-> Because nums[0] + nums[1] = 2 + 7 = 9,
+Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
 ### #2. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
@@ -48,26 +47,23 @@ There are two **sorted** arrays nums1 and nums2 of size m and n respectively.
 Find the **median** of the two sorted arrays. The overall run time complexity should be **O(log (m+n))**.
 
 >**Example 1:**
-nums1 = [1, 3]
-nums2 = [2]
-
->The median is 2.0
+nums1 = [1, 3]</br>
+nums2 = [2]</br>
+The median is 2.0
 
 >**Example 2:**
-nums1 = [1, 2]
-nums2 = [3, 4]
-
->The median is (2 + 3)/2 = 2.5
+nums1 = [1, 2]</br>
+nums2 = [3, 4]The median is (2 + 3)/2 = 2.5
 
 ### #5.[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
 Given a string **s**, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
 >**Example:**
-**Input:** "babad"
-**Output:** "bab"
+**Input:** "babad"</br>
+**Output:** "bab"</br>
 **Note:** "aba" is also a valid answer.
 
 >**Example:**
-**Input:** "cbbd"
+**Input:** "cbbd"</br>
 **Output: **"bb"
