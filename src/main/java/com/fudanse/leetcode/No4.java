@@ -9,13 +9,13 @@ public class No4 {
 			if (n % 2 == 1)
 				return nums2[n / 2];
 			else
-				return  ((double)(nums2[n / 2] + (double)nums2[n / 2 - 1]) / 2);
+				return ((double) (nums2[n / 2] + (double) nums2[n / 2 - 1]) / 2);
 		}
 		if (n == 0) {
 			if (m % 2 == 1)
 				return nums1[m / 2];
 			else
-				return (((double)nums1[m / 2] + (double)nums1[m / 2 - 1]) / 2);
+				return (((double) nums1[m / 2] + (double) nums1[m / 2 - 1]) / 2);
 		}
 		int sum = m + n;
 		int i = 0, j = sum / 2 - i;

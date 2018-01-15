@@ -8,6 +8,7 @@
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|Medium|2018/01/13|AC|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|Medium|2018/01/14|TLE|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|Hard|2018/01/14|Review|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|Medium|2018/01/15|Review|
 
 ## 题目描述
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -57,3 +58,16 @@ nums1 = [1, 2]
 nums2 = [3, 4]
 
 >The median is (2 + 3)/2 = 2.5
+
+### #5.[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
+
+Given a string **s**, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+
+>**Example:**
+**Input:** "babad"
+**Output:** "bab"
+**Note:** "aba" is also a valid answer.
+
+>**Example:**
+**Input:** "cbbd"
+**Output: **"bb"
