@@ -10,6 +10,7 @@
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|Hard|2018/01/14|Review|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|Medium|2018/01/15|Review|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|Medium|2018/01/16|AC|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Easy|2018/01/16|AC|
 
 ## 题目描述
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -79,3 +80,23 @@ And then read line by line: **"PAHNAPLSIIGYIR"**
 Write the code that will take a string and make this conversion given a number of rows:
 
 **convert("PAYPALISHIRING", 3)** should return **"PAHNAPLSIIGYIR"**.
+
+
+### #7.[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+
+Given a 32-bit signed integer, reverse digits of an integer.
+
+>**Example 1:**
+**Input:** 123
+**Output:**  321
+
+>**Example 2:**
+**Input:** -123
+**Output:** -321
+
+>**Example 3:**
+**Input:** 120
+**Output:** 21
+
+**Note:**
+Assume we are dealing with an environment which could only hold integers within the **32-bit** signed integer range. For the purpose of this problem, assume that your function returns **0** when the reversed integer overflows.
