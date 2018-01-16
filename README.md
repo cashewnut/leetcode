@@ -9,6 +9,7 @@
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|Medium|2018/01/14|TLE|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|Hard|2018/01/14|Review|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|Medium|2018/01/15|Review|
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|Medium|2018/01/16|AC|
 
 ## 题目描述
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -67,3 +68,14 @@ Given a string **s**, find the longest palindromic substring in s. You may assum
 >**Example:**
 **Input:** "cbbd"</br>
 **Output:** "bb"
+
+### #6.[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
+The string **"PAYPALISHIRING"** is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+>P&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;H &nbsp;&nbsp;&nbsp;N
+A&nbsp;P&nbsp;L&nbsp; S&nbsp; I&nbsp; I&nbsp; G
+Y&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;R
+
+And then read line by line: **"PAHNAPLSIIGYIR"**
+Write the code that will take a string and make this conversion given a number of rows:
+
+**convert("PAYPALISHIRING", 3)** should return **"PAHNAPLSIIGYIR"**.
