@@ -71,9 +71,9 @@ Given a string **s**, find the longest palindromic substring in s. You may assum
 
 ### #6.[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
 The string **"PAYPALISHIRING"** is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
->P&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;H &nbsp;&nbsp;&nbsp;N</br>
-A&nbsp;P&nbsp;L&nbsp; S&nbsp; I&nbsp; I&nbsp; G</br>
-Y&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;R
+>P &nbsp;&nbsp;&nbsp;A &nbsp;&nbsp;&nbsp;H &nbsp;&nbsp;&nbsp;N</br>
+A&nbsp;P&nbsp;L&nbsp;S&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;G</br>
+Y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R
 
 And then read line by line: **"PAHNAPLSIIGYIR"**
 Write the code that will take a string and make this conversion given a number of rows:
