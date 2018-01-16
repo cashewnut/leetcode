@@ -64,9 +64,36 @@ public class No5 {
 		return str;
 	}
 
+	public String longesPalindrome(String s) {
+		if (s.length() == 0) {
+			return s;
+		}
+		char[] a = s.toCharArray();
+		int maxlen = 0, maxi = 0;
+		for (int i = 0; i < a.length; i++) {
+			int len1 = range(a, i, i);
+			int len2 = range(a, i, i + 1);
+			int len = Math.max(len1, len2);
+			if (len > maxlen) {
+				maxlen = len;
+				maxi = i;
+			}
+		}
+		return s.substring(maxi + maxlen / 2 + 1 - maxlen, maxi + maxlen / 2 + 1);
+	}
+
+	public int range(char[] a, int left, int right) {
+		int l = left, r = right;
+		while (l >= 0 && r < a.length && a[l] == a[r]) {
+			l--;
+			r++;
+		}
+		return r - l - 1;
+	}
+
 	public static void main(String[] args) {
 		No5 n = new No5();
-		System.out.println(n.longestPalindrome("aaaa"));
+		System.out.println(n.longesPalindrome("babad"));
 	}
 
 }
