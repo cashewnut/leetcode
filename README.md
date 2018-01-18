@@ -3,7 +3,7 @@
 ## 刷题记录
 
 | Squence | Problem       | Level  | Data  | Result |
-|:-------:|:--------------|:------:|:----:|:------:|
+|:-------:|:--------------:|:------:|:----:|:------:|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|Easy|2018/01/13|AC|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|Medium|2018/01/13|AC|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|Medium|2018/01/14|TLE|
