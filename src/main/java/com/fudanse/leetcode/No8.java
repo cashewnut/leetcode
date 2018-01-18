@@ -1,9 +1,5 @@
 package com.fudanse.leetcode;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
-
-import org.omg.CORBA.INTERNAL;
-
 public class No8 {
 
 	public int myAtoi(String str) {

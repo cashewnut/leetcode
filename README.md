@@ -12,6 +12,7 @@
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|Medium|2018/01/16|AC|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Easy|2018/01/16|AC|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|Medium|2018/01/17|AC|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|Easy|2018/01/18|AC|
 
 
 ## 题目描述
@@ -118,3 +119,14 @@ The string can contain additional characters after those that form the integral 
 If the first sequence of non-whitespace characters in str is not a valid integral number, or if no such sequence exists because either str is empty or it contains only whitespace characters, no conversion is performed.
 
 If no valid conversion could be performed, a zero value is returned. If the correct value is out of the range of representable values, INT_MAX (2147483647) or INT_MIN (-2147483648) is returned.
+
+### #9.[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+Determine whether an integer is a palindrome. Do this without extra space.
+
+Could negative integers be palindromes? (ie, -1)
+
+If you are thinking of converting the integer to string, note the restriction of using extra space.
+
+You could also try reversing an integer. However, if you have solved the problem "Reverse Integer", you know that the reversed integer might overflow. How would you handle such case?
+
+There is a more generic way of solving this problem.
