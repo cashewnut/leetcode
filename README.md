@@ -13,6 +13,7 @@
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Easy|2018/01/16|AC|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|Medium|2018/01/17|AC|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|Easy|2018/01/18|AC|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|Hard|2018/01/18|Review!!!!!!|
 
 
 ## 题目描述
@@ -130,3 +131,24 @@ If you are thinking of converting the integer to string, note the restriction of
 You could also try reversing an integer. However, if you have solved the problem "Reverse Integer", you know that the reversed integer might overflow. How would you handle such case?
 
 There is a more generic way of solving this problem.
+
+### #10.[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
+
+Implement regular expression matching with support for **'.' **and **'*'**.
+
+>**'.'** Matches any single character.</br>
+**'*'** Matches zero or more of the **preceding** element.</br>
+</br>
+The matching should cover the entire input string (not partial).</br>
+</br>
+The function prototype should be:</br>
+bool isMatch(const char *s, const char *p)</br>
+</br>
+Some examples:</br>
+isMatch("aa","a") → false</br>
+isMatch("aa","aa") → true</br>
+isMatch("aaa","aa") → false</br>
+isMatch("aa", "a*") → true</br>
+isMatch("aa", ".*") → true</br>
+isMatch("ab", ".*") → true</br>
+isMatch("aab", "c*a*b") → true</br>
