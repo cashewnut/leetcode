@@ -18,6 +18,7 @@
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)|Medium|2018/03/27|AC|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|Easy|2018/03/27|AC|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|Easy|2018/03/28|AC|
+|15|[3Sum](https://leetcode.com/problems/3sum/description/)|Medium|2018/03/28|AC|
 
 
 ## 题目描述
@@ -176,3 +177,16 @@ Input is guaranteed to be within the range from 1 to 3999.
 ### #14.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 Write a function to find the longest common prefix string amongst an array of strings.
+
+### #14.[3Sum](https://leetcode.com/problems/3sum/description/)
+
+Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+Note: The solution set must not contain duplicate triplets.
+
+>For example, given array S = [-1, 0, 1, 2, -1, -4],
+A solution set is:
+[
+  [-1, 0, 1],
+  [-1, -1, 2]
+]
