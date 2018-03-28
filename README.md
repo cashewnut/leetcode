@@ -17,6 +17,7 @@
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|Medium|2018/01/23|Review(TLE)|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)|Medium|2018/03/27|AC|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|Easy|2018/03/27|AC|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|Easy|2018/03/28|AC|
 
 
 ## 题目描述
@@ -171,3 +172,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 ### #13.[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 Given a roman numeral, convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
+
+### #14.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
+
+Write a function to find the longest common prefix string amongst an array of strings.
