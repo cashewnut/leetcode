@@ -1,4 +1,4 @@
-package com.fudanse.leetcode;
+package pers.xyy.leetcode;
 
 public class No6 {
 	public String convert(String s, int numRows) {

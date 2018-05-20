@@ -1,4 +1,4 @@
-package com.fudanse.leetcode;
+package pers.xyy.leetcode;
 
 /**
  * Hello world!

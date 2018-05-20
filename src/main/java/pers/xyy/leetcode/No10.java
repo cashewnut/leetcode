@@ -1,4 +1,4 @@
-package com.fudanse.leetcode;
+package pers.xyy.leetcode;
 
 public class No10 {
 	public boolean isMatch(String t, String p) {

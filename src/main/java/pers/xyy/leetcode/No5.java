@@ -1,4 +1,4 @@
-package com.fudanse.leetcode;
+package pers.xyy.leetcode;
 
 public class No5 {
 	public String longestPalindrome(String s) {

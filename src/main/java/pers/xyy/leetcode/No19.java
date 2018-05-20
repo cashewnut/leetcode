@@ -1,4 +1,4 @@
-package com.fudanse.leetcode;
+package pers.xyy.leetcode;
 
 /**
  * best method is two pointers!!! Method removeNthFromEnd is not the best
