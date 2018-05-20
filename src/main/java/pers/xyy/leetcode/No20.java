@@ -39,5 +39,9 @@ public class No20 {
 	public boolean isRight(char c) {
 		return c == '}' || c == ')' || c == ']';
 	}
+	
+	public static void main(String[] args) {
+		
+	}
 
 }

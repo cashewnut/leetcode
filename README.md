@@ -24,6 +24,7 @@
 |18|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|Medium|2018/05/18|AC|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|2018/05/20|AC|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|Easy|2018/05/20|AC|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|Easy|2018/05/20|AC|
 
 ## Description
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -256,3 +257,9 @@ An input string is valid if:
 >Input: "(]"<br>
 >Output: false
 
+### #21.[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+**Example：**
+>Input: 1->2->4, 1->3->4<br>
+Output: 1->1->2->3->4->4
