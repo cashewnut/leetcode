@@ -25,6 +25,7 @@
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|2018/05/20|AC|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|Easy|2018/05/20|AC|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|Easy|2018/05/20|AC|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|Medium|2018/05/20|AC|
 
 ## Description
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -263,3 +264,17 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 **Example：**
 >Input: 1->2->4, 1->3->4<br>
 Output: 1->1->2->3->4->4
+
+### #22.[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
+
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+For example, given n = 3, a solution set is:
+
+[
+  "((()))",
+  "(()())",
+  "(())()",
+  "()(())",
+  "()()()"
+]
