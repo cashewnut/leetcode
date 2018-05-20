@@ -23,7 +23,7 @@
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|Medium|2018/05/18|AC|
 |18|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|Medium|2018/05/18|AC|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|2018/05/20|AC|
-
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|Easy|2018/05/20|AC|
 
 ## Description
 ### #1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -235,4 +235,24 @@ Given a linked list, remove the n-th node from the end of list and return its he
 
 **Follow up:**
 one pass
+
+### #20.[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+1、Open brackets must be closed by the same type of brackets.
+2、Open brackets must be closed in the correct order.
+
+**Example1：**
+>Input: "()"<br>
+>Output: true
+
+**Example2：**
+>Input: "()[]{}"<br>
+>Output: true
+
+**Example3：**
+>Input: "(]"<br>
+>Output: false
 
